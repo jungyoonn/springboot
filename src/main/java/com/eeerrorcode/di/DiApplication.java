@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 public class DiApplication {
 
 	// bean을 등록하려면 위 어노테이션들이 필요하다, 어노테이션이 없을 때 반환 대상이 인스턴스면 빈이 됨
-	@Bean
+	// @Bean
 	public static void main(String[] args) {
 		SpringApplication.run(DiApplication.class, args);
 	}
